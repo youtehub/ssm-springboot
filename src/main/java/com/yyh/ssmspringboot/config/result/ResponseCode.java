@@ -3,7 +3,7 @@ package com.yyh.ssmspringboot.config.result;
 /**
  * ResponseCode
  *
- * @author zhangquanli
+ * @author yyh
  */
 public interface ResponseCode {
 

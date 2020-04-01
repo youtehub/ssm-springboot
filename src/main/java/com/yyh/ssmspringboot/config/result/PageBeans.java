@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * PageBeans
  *
- * @author zhangquanli
+ * @author yyh
  */
 public class PageBeans {
 

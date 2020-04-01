@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * LocalDateTime2JsonConfig
  *
- * @author zhangquanli
+ * @author yyh
  */
 @Configuration
 public class LocalDateTimeToJacksonConfig {

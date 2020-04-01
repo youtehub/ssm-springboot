@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * ResponseResults
  *
- * @author zhangquanli
+ * @author yyh
  */
 public class ResponseResults {
 

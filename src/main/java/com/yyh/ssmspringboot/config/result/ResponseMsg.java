@@ -3,7 +3,7 @@ package com.yyh.ssmspringboot.config.result;
 /**
  * ResponseMsg
  *
- * @author zhangquanli
+ * @author yyh
  */
 public interface ResponseMsg {
 

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 /**
  * ResponseResult
  *
- * @author zhangquanli
+ * @author yyh
  */
 @Data
 @Builder
