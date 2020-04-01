@@ -40,10 +40,10 @@ swagger:
   docket:
     pc:
       title: ssm
-      description: ssm 框架搭建
+      description: ssm Frame Structures
       version: 1.0
       base-package: com.yyh.ssmspringboot.controller
-      basePath: /user/**
+#      basePath: /user/**
       contact:
         name: yyh
         email: 2728142607@qq.com
