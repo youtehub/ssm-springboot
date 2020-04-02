@@ -1,6 +1,8 @@
 package com.yyh.ssmspringboot.entity;
 
 import java.io.Serializable;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import lombok.AllArgsConstructor;
@@ -49,7 +51,7 @@ public class User implements Serializable {
     /**
      * 出生日期
      */
-    private Date birthday;
+//    private LocalDate birthday;
 
     /**
      * 手机
@@ -74,7 +76,7 @@ public class User implements Serializable {
     /**
      * 创建时间
      */
-    private Date creationdate;
+//    private LocalDateTime creationdate;
 
     /**
      * 更新者（userId）
@@ -84,7 +86,7 @@ public class User implements Serializable {
     /**
      * 更新时间
      */
-    private Date modifydate;
+//    private LocalDateTime modifydate;
 
     private static final long serialVersionUID = 1L;
 }

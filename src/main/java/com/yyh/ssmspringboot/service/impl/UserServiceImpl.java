@@ -49,5 +49,11 @@ public class UserServiceImpl implements UserService {
         return ResponseResults.success();
     }
 
+    @Override
+    public ResponseResult update(User user) {
+        userDAO.updateByPrimaryKeySelective(user);
+        return ResponseResults.success();
+    }
+
 
 }

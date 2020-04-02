@@ -7,14 +7,14 @@
     <result column="userName" jdbcType="VARCHAR" property="username" />
     <result column="userPassword" jdbcType="VARCHAR" property="userpassword" />
     <result column="gender" jdbcType="INTEGER" property="gender" />
-    <result column="birthday" jdbcType="DATE" property="birthday" />
+<!--    <result column="birthday" jdbcType="DATE" property="birthday" />-->
     <result column="phone" jdbcType="VARCHAR" property="phone" />
     <result column="address" jdbcType="VARCHAR" property="address" />
     <result column="userRole" jdbcType="BIGINT" property="userrole" />
     <result column="createdBy" jdbcType="BIGINT" property="createdby" />
-    <result column="creationDate" jdbcType="TIMESTAMP" property="creationdate" />
+<!--    <result column="creationDate" jdbcType="TIMESTAMP" property="creationdate" />-->
     <result column="modifyBy" jdbcType="BIGINT" property="modifyby" />
-    <result column="modifyDate" jdbcType="TIMESTAMP" property="modifydate" />
+<!--    <result column="modifyDate" jdbcType="TIMESTAMP" property="modifydate" />-->
   </resultMap>
   <sql id="Base_Column_List">
     id, userCode, userName, userPassword, gender, birthday, phone, address, userRole, 

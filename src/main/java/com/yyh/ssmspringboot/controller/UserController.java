@@ -17,7 +17,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * UserDAO继承基类
+ * 用户管理
+ *
+ * @author yyh
  */
 @RestController
 @Api(tags = "用户管理")
@@ -40,9 +42,15 @@ public class UserController {
         return userService.insert(user);
     }
 
+    @PostMapping("update")
+    @ApiOperation("修改用户")
+    public ResponseResult update(@ApiParam(value = "用户信息", required = true, example = "1") @Validated(Insert.class) User user) {
+        return userService.update(user);
+    }
+
     @PostMapping("delete")
     @ApiOperation("删除用户")
-    public ResponseResult delete(@ApiParam(value = "用户Id", required = true, example = "1")  @RequestParam Integer id) {
+    public ResponseResult delete(@ApiParam(value = "用户Id", required = true, example = "1") @RequestParam Integer id) {
         return userService.delete(id);
     }
 

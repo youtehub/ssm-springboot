@@ -25,6 +25,7 @@ public interface UserService {
 
     /**
      * 新增用户
+     *
      * @param user
      * @return
      */
@@ -32,8 +33,17 @@ public interface UserService {
 
     /**
      * 删除用户
+     *
      * @param id
      * @return
      */
     ResponseResult delete(Integer id);
+
+    /**
+     * 修改用户
+     *
+     * @param user
+     * @return
+     */
+    ResponseResult update(User user);
 }
