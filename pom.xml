@@ -25,7 +25,7 @@
 		<commons-beanutils.version>1.9.3</commons-beanutils.version>
 		<mysql.connector.java>5.1.46</mysql.connector.java>
 		<jjwt.version>0.10.6</jjwt.version>
-		<fastjson>1.2.60</fastjson>
+		<fastjson>1.2.83</fastjson>
 	</properties>
 
 	<dependencies>
