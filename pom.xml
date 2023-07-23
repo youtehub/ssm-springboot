@@ -22,7 +22,7 @@
 		<mapper.spring.boot.version>2.1.5</mapper.spring.boot.version>
 		<pagehelper.spring.boot.version>1.2.10</pagehelper.spring.boot.version>
 		<druid.spring.boot>1.1.10</druid.spring.boot>
-		<commons-beanutils.version>1.9.3</commons-beanutils.version>
+		<commons-beanutils.version>1.9.4</commons-beanutils.version>
 		<mysql.connector.java>5.1.46</mysql.connector.java>
 		<jjwt.version>0.10.6</jjwt.version>
 		<fastjson>1.2.60</fastjson>
